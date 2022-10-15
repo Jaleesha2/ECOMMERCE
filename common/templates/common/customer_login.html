@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>WELCOME</h1>
+    <img src="{% static 'images/download (1).jpg' %}" alt="cant loaded"><br>
+
+    <a href="customer_signup">customer_signup</a><br>
+    <a href="reseller_signup">project_home</a><br>
+    <a href="{% url 'cus_signin' %}">reseller_login</a><br>
+    <a href="">reseller_signup</a><br>
+</body>
+</html>
